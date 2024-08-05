@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Century;
+}
+header {
+    background-image: url("mud3.jpg");
+    background-position: center;
+    background-size: cover;
+     min-height: 200%;
+     height: 100vh;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+    
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: #ffff;
+    padding:5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    color:rgb(242, 132, 150);
+    font-style: bold;
+}
+ul li a:hover{
+    background-color: rgb(181, 240, 93);
+    color: #000;
+}
+ul li.active a{
+    background-color: rgb(181, 240, 93);
+    color: rgb(242, 132, 150);;
+}
+.main2 p1{
+  color:orange;
+  font-size: 2vh;
+  font-style: oblique;
+}
+.main2 p2{
+    color:rgb(230, 230, 27);
+    font-size: 5vh;
+    
+  }
+  .main2{
+    position: absolute;
+    top:30%;
+    right: 60%;
+  }
